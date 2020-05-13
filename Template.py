@@ -22,8 +22,12 @@ def main():
     p1 = Circle(Point(2, 3), 0.5)
     p1.setFill("red")
     p1.draw(win)
-    p2 = Point(-3, 1).draw(win)
-    p3 = Point(-1.5, -2.5).draw(win)
+    p2 = Circle(Point(-3, 1), 0.5)
+    p2.setFill("black")
+    p2.draw(win)
+    p3 = Circle(Point(-1.5, -2.5), 0.5)
+    p3.setFill("blue")
+    p3.draw(win)
 
     input()
 
